@@ -1,4 +1,3 @@
-// task_4/js/subjects/Subject.ts
 /// <reference path="./Teacher.ts" />
 
 namespace Subjects {
