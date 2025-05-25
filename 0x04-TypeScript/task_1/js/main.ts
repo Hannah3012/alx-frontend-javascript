@@ -24,3 +24,16 @@ const director: Directors = {
 };
 
 console.log(director);
+
+// interface for the function
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+// function implementation using the interface
+const printTeacher: printTeacherFunction = (firstName , lastName ) => {
+    return `${firstName.charAt(0)}. ${lastName}`;
+}
+
+
+
